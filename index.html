@@ -5,7 +5,278 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NETFLIX</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.main {
+  background-image: url(assest/image/backgroundimg.jpg);
+  height: 80vh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1000px, 100vw);
+
+}
+
+.main .box {
+  height: 80vh;
+  width: 100%;
+  opacity: .70;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  max-width: 85vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+
+
+}
+
+nav img {
+  color: red;
+  width: 140px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.box {
+  color: white;
+}
+
+.hero {
+  height: calc(100%-62%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, ;
+  gap: 15px;
+  padding: 180px;
+  text-align: center;
+
+
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.btn {
+  padding: 5px 63px 2px 17px;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  margin: 1px;
+  border: 2px solid gray;
+  font-size: 17px;
+
+
+
+}
+
+.btn-diksha {
+  background-color: red;
+  padding: 5px 25px 2px 17px;
+  color: white;
+  margin: 30px;
+  border-radius: 7px;
+  font-size: 17px;
+  font-weight: bold;
+
+  align-items: center;
+  margin: 4px;
+}
+
+.btn-bisht {
+  background-color: red;
+  padding: 9px 8px;
+  color: white;
+  border-radius: 4px;
+  padding: 14px 50px;
+  font-size: 24px;
+  font-weight: 800;
+  border: 2px solid white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-bisht:hover {
+  background-color: rgba(238, 31, 31, 0.853);
+  color: white;
+}
+
+.sepration {
+  height: 6px;
+  background-color: rgb(39, 39, 39);
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+   
+
+
+}
+ 
+
+.secImg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+
+}
+
+.secImg {
+  position: relative;
+}
+
+.secImg video {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  width: 555px;
+}
+
+.rohit h1 {
+  font-size: 50px;
+  font-weight: 800;
+ padding: 34px 0;
+}
+
+.rohit p {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.rohit {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+
+}
+
+.faq {
+  color: white;
+  font-size: 38px;
+  margin: 50px;
+}
+
+.faq h2 {
+  text-align: center;
+}
+
+.faqbox {
+  display: flex;
+
+  background-color: rgba(128, 128, 128, 0.388);
+  padding: 23px;
+  margin: 8px auto;
+  max-width: 60vw;
+  font-size: 25px;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+
+.faqbox svg {
+  filter: invert(2);
+}
+
+.faqbox:hover {
+  background-color: #414141;
+  color:;
+}
+
+.btn2 {
+  align-items: center;
+  margin: 34px;
+  padding: 4px 34px 2px 450px;
+}
+
+.btn-bisht-tw {
+  color: white;
+  background-color: red;
+  padding: 14px 50px;
+  font-size: 24px;
+  font-weight: 800;
+  border-radius: 2px solid rgba(235, 224, 224, 0.907);
+  cursor: pointer;
+}
+
+.btn-bisht-tw:hover {
+  background-color: rgba(238, 31, 31, 0.853);
+  color: white;
+}
+footer{
+max-width: 60vw;
+margin: auto;
+color: white;
+padding: 14px;
+ 
+}
+ .footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  margin: auto;
+max-width: 90vw;
+ }
+ @media screen and (max-width:1300px) {
+   
+  .footer{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+
+  }
+}
+ footer .question{
+   padding: 34px 0;
+  
+ }
+ .footer a{
+   font-size: 14px;
+  color: white;
+ }
+.footer-item{
+  display: flex;
+  flex-direction: column;
+  gap: 13px 4px;
+  
+}
+ 
+    </style>
 </head>
 
 <body>
